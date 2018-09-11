@@ -1,0 +1,177 @@
+<!doctype html>
+
+<!--This is the begining of the html the browser will process-->
+
+<html>
+
+<!--information used by the browser-->
+
+<head>
+
+    <meta charset="utf-8">
+
+    <!--
+            displayed anywhere the title is use for the browser, search engine, etc.
+        -->
+
+    <title>inside out - Jason Kurtz - movies</title>
+
+    <!--
+            used to display information about the page by search engine and other sites looking at our page
+        -->
+
+    <meta name="description" content="Inside out is a class project we use to learn html" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<!--content displayed in the browser window-->
+
+<body>
+
+    <header>
+        <h1><a href="index.php">inside out - movies</a></h1>
+        <h2>continuously falling forward into the light...</h2>
+        <nav>
+            <ul>
+                <li><a href="love.html">love</a>
+                    <ul>
+                        <li><a href="things.html">things</a>
+                            <ul>
+                                <li><a href="music.html">music</a></li>
+                                <li><a href="movies.html">movies</a></li>
+                                <li><a href="books.html">books</a></li>
+                                <li><a href="websites.html">websites</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="people.html">people</a>
+                            <ul>
+                                <li><a href="family.html">family</a></li>
+                                <li><a href="friends.html">friends</a></li>
+                                <li><a href="others.html">others</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="who.html">who</a>
+                    <ul>
+                        <li><a href="i.html">i</a>
+                            <ul>
+                                <li><a href="was_then.html">was then</a></li>
+                                <li><a href="am_now.html">am now</a></li>
+                                <li><a href="will_be.html">will be</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="challenges.html">challenges</a>
+                    <ul>
+                        <li><a href="behind_me.html">behind me</a></li>
+                        <li><a href="ahead_of_me.html">ahead of me</a></li>
+                    </ul>
+                </li>
+                <li><a href="you.html">you</a>
+                    <ul>
+                        <li><a href="profile.html">profile</a></li>
+                        <li><a href="settings.html">settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="mainScreen">
+            <iframe id="movieFrame" src="https://www.youtube.com/embed/T9ejutEHiw0" frameborder="0" allowfullscreen>Your browser currently does not support iframes. Plaese contact the website administrator if you believe this is happening in error.
+            </iframe>
+        </div>
+    </section>
+    <section>
+        <div id="cardsWrapper">
+            <div class="card" onClick="changeVideo('T9ejutEHiw0')">
+                <div class="cardImage" style="background-image: url(assets/images/glory_road.jpg); background-position: 90% 10%"></div>
+                <div class="cardInfo">
+                    <h4>Glory Road</h4>
+                    <div class="cardInfoText">
+                        <p>40 years ago, Don Haskins went on the recruiting trail to find the best talent in the land, black or white. 7 blacks and 5 whites made up the legendary 1965-66 Texas Western Miners. They were mocked and ridiculed for their showboating and flaunting of black players on the court. Yet, in the face of seemingly insurmountable odds, Haskins and his Miners came together as a team united to reach the National Championship game against Kentucky.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cardsWrapper">
+            <div class="card" onClick="changeVideo('cbb6wfNIUH0')">
+                <div class="cardImage" style="background-image: url(assets/images/war_room.jpg); background-position: 30% 70%"></div>
+                <div class="cardInfo">
+                    <h4>War Room</h4>
+                    <div class="cardInfoText">
+                        <P>With great jobs, a beautiful daughter and a dream house, the Jordans seem to have it all. Appearances can be deceiving, however, as husband Tony flirts with temptation and wife Elizabeth becomes increasingly bitter, crumbling under the strain of a failing marriage. Their lives take an unexpected turn for the better when Elizabeth meets her newest client, Miss Clara who encourages the couple to find happiness through prayer.</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cardsWrapper">
+            <div class="card" onClick="changeVideo('prIWM_zSVJw')">
+                <div class="cardImage" style="background-image: url(assets/images/fireproof.jpg); background-position: 35% 65%"></div>
+                <div class="cardInfo">
+                    <h4>Fireproof</h4>
+                    <div class="cardInfoText">
+                        <p>Caleb Holt, a heroic fire captain who values dedication and service to others above all else. But the most important partnership in his life, his marriage, is about to go up in smoke. Fireproof follows one man's desire to transform his life and marriage through the healing power of faith and fully embrace the fireman's code: Never Leave Your Partner Behind.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cardsWrapper">
+            <div class="card" onClick="changeVideo('D-bpffyqr0s')">
+                <div class="cardImage" style="background-image: url(assets/images/hometown.jpg); background-position: 5% 95%"></div>
+                <div class="cardInfo">
+                    <h4>Hometown Legend</h4>
+                    <div class="cardInfoText">
+                        <p>Nothing is impossible for those who have a dream!A single boy can bring victory to his school and make the entire town proud again.Despite his rough coach and a whole team lacking a will for victory anything could happend, even a love with a local girl.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cardsWrapper">
+            <div class="card" onClick="changeVideo('2GSzaJg4E0E')">
+                <div class="cardImage" style="background-image: url(assets/images/the_ride.jpg); background-position: 60% 40%"></div>
+                <div class="cardInfo">
+                    <h4>The Ride</h4>
+                    <div class="cardInfoText">
+                        <p>Smokey Banks used to be one of the greatest bull riders in rodeo. For the last few years this has-been cowboy has been riding the bottle more, and taking a far worse beating than any bull ever delivered. Through a strange and sudden set of events, he is given an option : go to jail, or be a cowboy teacher at a Boy's Ranch. His mission was simple: teach young Danny how to ride a bull. Danny becomes far more of a teacher to him than he ever dreamed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cardsWrapper">
+            <div class="card" onClick="changeVideo('kL4euwnB-GQ')">
+                <div class="cardImage" style="background-image: url(assets/images/miracle_of_the_cards.jpg); background-position: bottom"></div>
+                <div class="cardInfo">
+                    <h4>Miracle of the Cards</h4>
+                    <div class="cardInfoText">
+                        <p>"The Miracle of the Cards" is based on the true story of Marion Shergold and her son, Craig, an eight-year-old English boy who had a brain tumor. Several events convinced Marion that God was leading her to a cure for Craig and that the get-well cards he was receiving had the power to keep him alive. Against the advice of her doctors, Marion followed one of those cards to America for Craig's miraculous cure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </section>
+
+
+    <footer>
+        <h4>this is the footer</h4>
+        <p>we place redundant information here</p>
+        <div id="footerTagLine">I am 7 inches left of normal</div>
+    </footer>
+    <script>
+        function changeVideo(vid) {
+            document.getElementById('movieFrame').src = 'http://youtube.com/embed/' + vid;
+            document.getElementById('movieFrame').scrollIntoView({
+                behavior: 'smooth'
+            });
+
+        }
+    </script>
+</body>
+
+</html>
