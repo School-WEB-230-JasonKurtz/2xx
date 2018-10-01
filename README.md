@@ -16,9 +16,9 @@ version 201.0
 
 version 202.0
 - replaced navigation menu with top level pages by creating a function and array to dynamically create the menu (love, who, challenges, you)
-- created the functions.inc.php files
-	- created the menuBuilder functions
-- created the menu.data.php files
+- created the functions.inc.php file
+	- created the menuBuilder function
+- created the menu.data.php file
 	- created menuItems array
 - Included in the very top of the header.inc.php a require_once to the include/menu.data.php file
 - Included in the very top of the header.inc.php a require_once to the include/functions.inc.php file
