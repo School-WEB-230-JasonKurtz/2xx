@@ -1,4 +1,7 @@
 <?php
+	//Pulls data information and configuration used throughout the application
+	require_once 'config.inc.php';
+
 	//Pulls data elements used throughout the entire websites
 	require_once 'content.data.php';
 
@@ -8,7 +11,7 @@
     /*
         The following will be passed along to JavaScript by establishing variables in PHP and passing them into the HTML via Global JavaScript variables the same names used for PHP
     */
-    $siteName = 'inside out | 2xx';
+
 ?>
 <!doctype html>
 <?php
@@ -26,7 +29,7 @@
 
                 */
         ?>
-       <title><?php echo $siteName; ?></title>
+       <title><?php echo SITENAME; ?></title>
        <?php
                 /*
                     used to display information about the page by search engine and other sites looking at our page
@@ -35,7 +38,7 @@
         <meta name="description" content="Inside out is a class project we use to learn html" />
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <script>
-            var siteName = '<?php echo $siteName; ?>';
+            var siteName = '<?php echo SITENAME; ?>';
         </script>
     </head>
     <?php
@@ -45,7 +48,7 @@
     ?>
     <body>
         <header>
-            <h1><a href="index.php"><?php echo $siteName; ?></a></h1>
+            <h1><a href="index.php"><?php echo SITENAME; ?></a></h1>
             <h2>continuously falling forward into the light...</h2>
             <nav>
 			  <?php
