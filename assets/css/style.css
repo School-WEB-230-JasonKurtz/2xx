@@ -253,3 +253,9 @@ table tr:hover td {
     top: calc(50% - 125px);
     left: calc(50% - 150px);
 }
+
+
+.copyright {
+    font-size: .75em;
+    padding: 10px;
+}
