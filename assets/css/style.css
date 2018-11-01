@@ -110,12 +110,13 @@ nav ul ul {
 
 nav ul ul li {
     float: none;
-    min-width 150px;
+    min-width: 150px;
+    padding: 0;
 }
 
 nav ul ul a {
     line-height: 120%;
-    padding: 10px 15px;
+    padding: 10px;
 }
 
 nav ul ul ul {
