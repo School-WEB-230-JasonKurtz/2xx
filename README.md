@@ -35,3 +35,22 @@ Version 203.0
 - Added the code to the footer.inc.php page to add the copyright and version information.
 - Added class to the style.css page for the copyright and version. (.copyright)
 - Added redirect to force a secure connection in the header.inc.php.
+
+Version 204.0
+- replaced html in the header.inc and footer.inc.php files with responsive bootstrap html
+- updated the menuBuilder() function bypass the home page when building the menu
+- added the getPages function to the functions.inc.php file
+- added the constant variable "DEFUALT_PAGE" to establish the default page
+- updated the constant variable "VERSION" to 2.0.4.0
+- put the getPage function in the index.php page
+- added pageContent to the content array
+- added the following files:
+          - assets/css/animate.min.css
+          - assets/css/bootstrap.css
+          - assets/css/style.css
+          - assets/js/app.js
+          - assets/js/html5shiv.min.js
+          - assets/js/bootstrap.js
+          - assets/js/html5shiv.min.js
+          - assets/js/jquery-1.11.3.min.js
+          - assets/js/respond.min.js
